@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+}
+
+header {background-color: #f2f2f2;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    }
+
+#header1 {
+font-size: 65px;
+text-align: center;
+list-style-type: none; 
+font-weight: bold;
+color: #707070;
+}
+
+.center { display: block;
+margin-left: auto;
+margin-right: auto;
+width: 125;}
+
+
+
+#header1>li { 
+font-family: sans-serif;
+display:inline;
+margin: 10px;
+font-size: 40px;
+}
+
+.heroImage {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+#footer1 {
+list-style-type: none;
+}
+
+#footer1>li {
+display: block;
+padding: 30px;
+font-family: sans-serif;
+}
+
+.copyright {
+text-align: right;
+font-family: sans-serif;
+padding-bottom: 5px;
+padding-right: 5px;
+}
+
+footer {
+background-color: #dbd7d7;
+padding-top: 10px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+button {
+    background-color: lightblue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.mySkills {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.myyWork {
+    padding-top: 100px;
+    font-family: sans-serif;
+    padding-left: 30px
+}
+
+
+
+
+@media (max-width:600px) {
+    .flexContainer {
+        flex-direction: column;
+        
+    }
+    #header1>li { 
+        font-family: sans-serif;
+        display: inline;
+        margin: 10px;
+        font-size: 30px;
+        }
+    .workGrid {
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    }
+    .daspic >img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    
+      }
+
+    .heroImage {
+        padding-top: 100px;
+    }
+    
+}
+    
+

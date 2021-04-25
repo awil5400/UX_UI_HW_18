@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="index.css"> 
     <title>AndrewPortfolio01</title>
 </head>
 
 <body>
+
     <header>
-        <img src="Images/brandlogo.png" alt="Brand Logo" width="125" height="125" class="center">
+        <img src="images/brandlogo.png" alt="Brand Logo" width="125" height="125" class="center">
         <div class="inline">
           <ul id="header1">
             <li>Portfolio</li>
@@ -17,28 +19,71 @@
         </div>
      
       </header>
+
   <section>
-    <img src="Images/heroimage.png" alt="Hero Image" width="1920" height="511">
+    <img class="heroImage" src="images/heroimage.png" alt="Hero Image" width="100%" height="511">
   </section>    
   
-
-  <section class="mywork">
-    <img src="Images/bookingbuddy.png" alt="BookingBuddy" width="738" height="461">
-    <h1 class="bookbud">BookingBuddy</h1>
-    <img src="Images/dasredesign.png" alt="DAS Redesign" width="738" height="461">
-    <h2 class="das">Denver Art Society</h2>
-
-    
-    
-
+<!-- My UX Work section coded using CSS Grid-->
+  
+  <section class="myyWork">
+    <h1>My Work</h1>
+    <div class="workGrid">
+      <div>
+        <img src="images/dasredesign.png"  height="217" width="345">
+      </div>
+      <div class="dasbutton">
+        <h3>Denver Art Society</h3>
+        <h4>Non Profit Re-design</h4>
+        <p>A re-design for the Denver Art Society that aims to improve usability for users seeking to volunteer or sign up for classes.</p>
+        <button>
+          Case Study
+        </button>
+      </div>
+      <div>
+        <img src="images/bookingbuddy.png" height="217" width="345">
+      </div>
+      <div class="bbbutton">
+        <h3>BookingBuddy</h3>
+        <h4>Aggregator Travel App</h4>
+        <p>A social media aggregator designed for travel enthusiasts who are looking to find "off the beaten path" adventures.</p>
+        <button>
+          Case Study
+        </button>
+      </div>
+    </div>
   </section>
+
+  <!-- My UX Skills section coded using CSS flex-->
+  <section class="mySkills">
+    <h1>My Skills</h1>
+    <div class="flexContainer">
+      <div>
+        <img src="images/Edit photo-rafiki.png" width="225px" height="225px">
+        <h3>Photoshop</h3>
+        <p>Very familiar with adobe Photoshop and general familiarity with other photo editing software. Able to edit quickly, without sacrificing photo quality.</p>
+      </div>
+      <div>
+        <img src="images/Meeting-rafiki.png" width="225px" height="225px">
+        <h3>User Research</h3>
+        <p>Creates effective interview questions that bring clarity to the scope of a project. Able to empathize with users and connect their needs and wants to a practical scope.</p>
+      </div>
+      <div>
+        <img src="images/Video files-bro.png" width="225px" height="225px"> 
+        <h3>Video Editing</h3>
+        <p>Deep passion for video editing. Most proficient in Premiere Pro, but also skilled in iMovie and Windows video editor. Able to quickly finish a video to enhance a project.</p>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <ul id="footer1">
       <li>Phone:        325-386-5658</li>
       <li>Email:        awilson5400@gmail.com</li>
     </ul>
-    <p>Copyright 2021</p>
+    <p class="copyright">Copyright 2021</p>
   </footer>
+
 </body>
 
 </html>
